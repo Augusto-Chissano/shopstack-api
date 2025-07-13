@@ -8,12 +8,12 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "nodemon server.js",
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/ecommerce-app.git"
+    "url": "https://github.com/Augusto-Chissano/shopstack-api.git"
   },
   "keywords": [
     "ShopStack",
@@ -26,9 +26,10 @@
   "bugs": {
     "url": "https://github.com/yourusername/ecommerce-app/issues"
   },
-  "homepage": "https://github.com/yourusername/ecommerce-app#readme",
+  "homepage": "https://github.com/Augusto-Chissano/shopstack-api.git#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.3",
