@@ -38,8 +38,9 @@ shopstack-api/
 │   │  ├── services/       # Business logic
 │   │  ├── utils/          # Utility functions
 │   │  └── config/         # Configuration files
-│   └── uploads/           # File uploads
+└── uploads/               # File uploads
 └── server.js              # Entry point that starts the server and handles uncaught exceptions
+
 ```
 
 ## 🚀 Getting Started
