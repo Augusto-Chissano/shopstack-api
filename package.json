@@ -2,14 +2,14 @@
   "name": "shopstack-api",
   "version": "1.0.0",
   "description": "ShopStack API for E-Commercerce Application",
-  "main": "server.js",
+  "main": "api/index.js",
   "type": "module",
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node api/index.js"
   },
   "repository": {
     "type": "git",
